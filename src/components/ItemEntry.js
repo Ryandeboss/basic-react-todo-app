@@ -17,6 +17,7 @@ function TodoEntry({ addItem }) {
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
         placeholder="New task..."
+        
       />
       <button onClick={handleAdd}>+</button>
     </div>
