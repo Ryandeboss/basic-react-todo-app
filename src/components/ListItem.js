@@ -3,7 +3,7 @@
 function ListItem({todo, deleteItem}){
 
   const handleDelete = () => {
-    deleteItem(todo.id);        // 👈 delete based on the todo's ID
+    deleteItem(todo.id);        
   };
 
     return(
@@ -20,23 +20,3 @@ function ListItem({todo, deleteItem}){
 
 export default ListItem
 
-
-// import './App.css';
-// import TodoList from "./components/todoList"
-
-
-
-// function App() {
-
-
-
-
-//   return (
-//     <div>
-//       <TodoList />
-//     </div>
-  
-//   );
-// }
-
-// export default App;
