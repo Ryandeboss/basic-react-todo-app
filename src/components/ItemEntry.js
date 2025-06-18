@@ -5,7 +5,7 @@ function TodoEntry({ addItem }) {
 
   const handleAdd = () => {
     if (inputText.trim() !== '') {
-      addItem(inputText);         // 👈 use the prop passed from parent
+      addItem(inputText);         
       setInputText('');           // Clear the input
     }
   };
