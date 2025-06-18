@@ -1,0 +1,49 @@
+:root {
+  --height: 50vh;
+  --width: 35vw;
+
+}
+
+
+.box{
+  margin-top: calc((100vh - var(--height)) / 2); 
+  margin-left: calc((100vw - var(--width)) / 2);
+  height: var(--height);
+  width: var(--width);
+  border: 1px solid;
+  border-color: chocolate;
+  background-color: aliceblue;
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+  flex-direction: column;
+  padding: 3vh 0;
+}
+
+
+.spacer{
+  flex: .75;
+}
+
+.items-wrapper{
+  text-align: center;
+}
+
+input{
+  font-style: normal;
+}
+input[type="text"]{
+  margin-top: 2vh;
+
+}
+h1{
+  font-size: large;
+}
+
+p{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.list-items-cell{
+  display: flex ;
+}
